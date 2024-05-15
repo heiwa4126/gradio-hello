@@ -17,5 +17,5 @@ def main():
     # demo.launch(server_port=8080)
 
 
-if __file__ == "__main__":
+if __name__ == "__main__":
     main()

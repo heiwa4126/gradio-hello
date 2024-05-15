@@ -71,6 +71,7 @@ exclude_lines = [
 
 [tool.hatch.envs.default.scripts]
 dev = "gradio src/gradio_hello/main.py"
+# ↑ see https://www.gradio.app/guides/developing-faster-with-reload-mode#python-ide-reload
 preview = "python src/gradio_hello/main.py"
 
 [project.scripts]
