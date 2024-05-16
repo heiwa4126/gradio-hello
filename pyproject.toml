@@ -5,13 +5,14 @@ build-backend = "hatchling.build"
 [project]
 name = "gradio-hello"
 dynamic = [ "version" ]
-description = ''
+description = 'A Gradio demo app for "Hello, World!"'
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 keywords = [
   "demo",
   "gradio",
+  "helloworld",
 ]
 authors = [
   { name = "heiwa4126", email = "heiwa4126@gmail.com" },
@@ -73,7 +74,7 @@ exclude_lines = [
 ]
 
 [tool.hatch.envs.default.scripts]
-dev = "gradio src/gradio_hello/main.py"
+dev = "gradio src/gradio_hello/main.py --demo-name=demo"
 # ↑ see https://www.gradio.app/guides/developing-faster-with-reload-mode#python-ide-reload
 preview = "python src/gradio_hello/main.py"
 
