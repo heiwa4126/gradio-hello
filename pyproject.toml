@@ -9,9 +9,12 @@ description = ''
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
-keywords = [  ]
+keywords = [
+  "demo",
+  "gradio",
+]
 authors = [
-  { name = "Masato Ota", email = "ohtam@nec.com" },
+  { name = "heiwa4126", email = "heiwa4126@gmail.com" },
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -27,9 +30,9 @@ classifiers = [
 dependencies = [ "gradio" ]
 
 [project.urls]
-Documentation = "https://github.com/Masato Ota/gradio-hello#readme"
-Issues = "https://github.com/Masato Ota/gradio-hello/issues"
-Source = "https://github.com/Masato Ota/gradio-hello"
+Documentation = "https://github.com/heiwa4126/gradio-hello#readme"
+Issues = "https://github.com/heiwa4126/gradio-hello/issues"
+Source = "https://github.com/heiwa4126/gradio-hello"
 
 [tool.hatch.version]
 path = "src/gradio_hello/__about__.py"
